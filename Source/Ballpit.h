@@ -32,7 +32,6 @@
 //벡터 관련 수학함수가 정의된 네임스페이스
 using namespace vmath;
 
-//정20면체를 정의 :
 //정20면체를 테셀레이션 하면 구(Sphere)를 가장 적절하게 근사한 모델을 얻을 수 있음.
 const GLfloat tmp = 1.61803401;
 const GLfloat tmp2 = sqrtf(4.0f + powf(2 * tmp, 2.0f)) / BALL_UNIT;
